@@ -1,6 +1,7 @@
 import React from 'react'
 import { Form } from '@formily/core'
 export interface ISettingFormProps {
+  uploadCustomRequest: void
   className?: string
   style?: React.CSSProperties
   uploadAction?: string

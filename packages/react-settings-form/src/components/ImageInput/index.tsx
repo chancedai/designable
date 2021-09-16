@@ -27,6 +27,7 @@ export const ImageInput: React.FC<ImageInputProps> = ({
         prefix={
           <Upload
             action={context.uploadAction}
+            customRequest={() => context.uploadCustomRequest}
             itemRender={() => null}
             maxCount={1}
             onChange={(params) => {
